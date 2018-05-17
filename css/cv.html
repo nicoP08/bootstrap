@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mon CV</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="js.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+
+<body>
+  <h1>NICOLAS PINAS</h1>
+
+  <h2>COORDONNEES</h2>
+
+
+        <button id='b1'>Cacher</button>
+        <button id='b2'>Afficher</button>
+ <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+
+<script>
+            $(document).ready(function(){
+                $('#b1').click(function(){
+                    $('#tableau').hide();
+                });
+
+                $('#b2').click(function(){
+                    $('#tableau').show();
+                });
+            });
+</script>
+  <table id = "tableau">
+    <tr id="titre">
+      <td>Ville</td>
+      <td></td>
+      <td>Téléphone</td>
+    </tr>
+
+    <tr>
+      <td> Donchery</td>
+      <td></td>
+      <td>06 62 80 60 31</td>
+    </tr>
+  </table>
+  </div>
+</div>
+
+  <h2>EXPERIENCE</h2>
+
+  <ul>
+    <li class="emploi">Vendeur multimédia à Leclerc</li>
+    <li class="emploi">Animateur commercial pour la marque HP et Sony</li>
+    <li class="emploi">Formateur pour la société Polyconcept</li>
+    <li class="stage">Technicien de maintenance des imprimante à PSA </li>
+    <li class="stage">Assistant de l'administrateur réseau</li>
+    <li class="autre">Donner des cours d'informatique pendant 10 ans</li>
+  </ul>
+
+  <h2>FORMATION</h2>
+
+  <ul>
+    <li>Pré-qualification Technicien suppérieur en support informatique</li>
+    <li>Formation de Vendeur spécialisé en magasin</li>
+    <li>Formation de Technicien en assistance informatique</li>
+    <li>BAC PRO Comptabilité</li>
+  </ul>
+
+  <h2>LOISIRS</h2>
+
+  <p>Arbitre Nationnal de Tenis de table, cinéma, jeux vidéos</p>
+
+</body>
+</html>
